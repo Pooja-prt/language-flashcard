@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Flashcard App</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .flashcard { margin: 10px 0; padding: 10px; background: #eef; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Language Flashcard App</h1>
+    <form id="flashcard-form">
+        <input type="text" id="word" placeholder="Enter word" required>
+        <input type="text" id="translation" placeholder="Enter translation" required>
+        <button type="submit">Add Flashcard</button>
+    </form>
+
+    <h2>Flashcards</h2>
+    <div id="flashcards-list"></div>
+
+    <script src="flashcard_backend.js"></script>
+</body>
+</html>
